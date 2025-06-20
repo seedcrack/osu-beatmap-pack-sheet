@@ -11,5 +11,5 @@ How to use
 2. Run hyperlink_maker.py by running `python hyperlink_maker.py`
 3. The result should be on the `hyperlinks.txt` now you can import it to google sheet
 4. On Google sheet File --> Import --> drag and drop `hyperlinks.txt`
-5. Separator type : custom --> make semicolon (;) a common separator
+5. Separator type : custom --> make semicolon `;` a common separator
 6. Import data
