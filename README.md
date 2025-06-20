@@ -1,4 +1,4 @@
-setup steps
+setup guide
 
 1. Install python on your PC (ossapi doesn't work on some IDE)
 2. Have python IDE (unless you want to edit this code on notepad)
