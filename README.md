@@ -13,3 +13,5 @@ How to use
 4. On Google sheet File --> Import --> drag and drop `hyperlinks.txt`
 5. Separator type : custom --> make semicolon `;` a common separator
 6. Import data
+7. Ctrl + F --> kebab menu to open Find and Replace
+8. tick `Also search within formulas` delete all the leading apostrophes
