@@ -7,7 +7,7 @@ setup steps
 5. Edit the code by replacing `[redacted]` with your API key `api = Ossapi(client_id, client_secret)`
 
 How to use
-1. Run search.py by running `python search.py` on cmd (open cmd on the folder containing the code and the text)
+1. Run search.py by running `python search.py` on cmd (open cmd on the folder containing the code and the text files)
 2. Run hyperlink_maker.py by running `python hyperlink_maker.py`
 3. The result should be on the `hyperlinks.txt` now you can import it to google sheet
 4. On Google sheet File --> Import --> drag and drop `hyperlinks.txt`
