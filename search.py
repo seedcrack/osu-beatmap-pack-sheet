@@ -1,11 +1,15 @@
 from ossapi import Ossapi
 print('Hello! please enter your Client ID and Client secret')
-client_id = input('Client ID : ')
-client_secret = input('Client Secret : ')
-try:
-    api = Ossapi(client_id, client_secret)
-except Exception as e:
-    print(f'Error : {e}')
+
+while True:
+    try:
+        client_id = input('Client ID : ')
+        client_secret = input('Client Secret : ')
+        api = Ossapi(client_id, client_secret)
+        if api:
+            break
+    except Exception as e:
+        print(f'Error : {e}')
 
 has_30_days = [4,6,9,11]
 has_31_days = [1,3,5,7,8,10,12]
