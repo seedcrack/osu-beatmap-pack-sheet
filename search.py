@@ -36,7 +36,7 @@ for i in range(start_month,end_month+1):
     if i in has_31_days:
         day_in_month = 31
     if i == 2:
-        if i % 4 == 0: # not gonna be a problem until 2100
+        if year % 4 == 0: # not gonna be a problem until 2100
             day_in_month = 29
         else:
             day_in_month = 28
