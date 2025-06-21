@@ -25,7 +25,7 @@ print('''-1 : all gamemode
 2 : ctb
 3 : Mania''')
 gamemode = int(input('gamemode : '))
-year = input('year to search : ')
+year = int(input('year to search : '))
 start_month = int(input('starting month (put a number) : '))
 end_month = int(input('ending month (put a number) : '))
 # sry can't do start and end date, too much of a headache
