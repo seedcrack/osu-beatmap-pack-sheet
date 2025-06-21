@@ -1,10 +1,11 @@
 setup guide
 
 1. download all files in this repo
-2. Install python on your PC (ossapi doesn't work on some IDE)
-3. run `pip install ossapi` on cmd
-4. Set up API key https://tybug.github.io/ossapi/creating-a-client.html
-5. you now should have client ID and client secret which you need to input when running this code
+2. put them all in a single folder
+3. Install python on your PC (ossapi doesn't work on some IDE)
+4. run `pip install ossapi` on cmd
+5. Set up API key https://tybug.github.io/ossapi/creating-a-client.html
+6. you now should have client ID and client secret which you need to input when running this code
 
 How to use
 1. Run search.py by running `python search.py` on cmd (open cmd on the folder containing the code and the text files)
